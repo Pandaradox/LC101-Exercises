@@ -31,3 +31,41 @@
 #        tess.left(360/sides)
 # wn.exitonclick()
 ##################################################
+#Chapter 5 exercises
+# Number 2
+# import turtle
+#
+# def draw_square(t,side):
+#     for i in range (4):
+#         t.forward(side)
+#         t.left(90)
+# def rings(t, count, space, size):
+#
+#     for x in range(count):
+#         draw_square(t,size)
+#         size += space
+#         t.up()
+#         t.right(90)
+#         t.forward(space/2)
+#         t.right(90)
+#         t.forward(space/2)
+#         t.right(180)
+#         t.down()
+#
+# def main():
+#     wn = turtle.Screen()
+#     wn.bgcolor("light green")
+#     don = turtle.Turtle()
+#     don.pencolor("pink")
+#     don.pensize(3)
+#
+#     number_of_squares = 5
+#     spacing = 20
+#     initial_size = 20
+#     rings(don, number_of_squares, spacing, initial_size)
+#
+#     wn.exitonclick()
+#
+# if __name__ == "__main__":
+#     main()
+##################################################
