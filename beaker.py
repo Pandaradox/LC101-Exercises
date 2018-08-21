@@ -126,22 +126,36 @@
 # if __name__ == "__main__":
 #     main()
 ##################################################
-import turtle
-import random
-tess=turtle.Turtle()
-wn=turtle.Screen()
-rainbow=["red","blue","yellow","orange","green","purple","hotpink"]
+# import turtle
+# import random
+# tess=turtle.Turtle()
+# wn=turtle.Screen()
+# rainbow=["red","blue","yellow","orange","green","purple","hotpink"]
+#
+# tess.penup()
+# tess.goto(-300,0)
+# for sides in (3,4,6,8):
+#    tess.penup()
+#    tess.forward(100)
+#    tess.pendown()
+#    tess.color(random.choice(rainbow))
+#    tess.begin_fill()
+#    for i in range(sides):
+#        tess.forward(40)
+#        tess.left(360/sides)
+#    tess.end_fill()
+# wn.exitonclick()
+##################################################
+def square(num, iteration = 0, result = 0):
+    num = abs(num)
 
-tess.penup()
-tess.goto(-300,0)
-for sides in (3,4,6,8):
-   tess.penup()
-   tess.forward(100)
-   tess.pendown()
-   tess.color(random.choice(rainbow))
-   tess.begin_fill()
-   for i in range(sides):
-       tess.forward(40)
-       tess.left(360/sides)
-   tess.end_fill()
-wn.exitonclick()
+    if iteration == num:
+        return result
+    return square(num, iteration+1, result + num)
+
+
+def main():
+    print("Square: ", square(10))
+
+if __name__ == "__main__":
+    main()
