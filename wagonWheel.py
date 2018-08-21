@@ -17,10 +17,10 @@ def main():
     zeke.pensize(3)
     zeke.pencolor("blue")
     zeke.speed(0)
-    num_of_squares = 5
-
+    num_of_squares = 10
+    square_size = 200
     for squares in range(num_of_squares):
-        biggy_square(zeke)
+        biggy_square(zeke, square_size)
         zeke.left(90/num_of_squares)
     canvas.exitonclick()
 if __name__ == "__main__":
