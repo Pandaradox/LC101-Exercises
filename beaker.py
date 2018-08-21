@@ -69,3 +69,18 @@
 # if __name__ == "__main__":
 #     main()
 ##################################################
+# """Studio Fibbanaci Series"""
+# def fib(x, y):
+#     return y, x+y
+#
+# def main():
+#     a = 0
+#     b = 1
+#     perms = int(input("Which sequence number do you want? "))
+#     for i in range(perms-1):
+#         print (a)
+#         a, b = fib(a,b)
+#     print(a, "Is the answer")
+#
+# if __name__ == "__main__":
+#     main()

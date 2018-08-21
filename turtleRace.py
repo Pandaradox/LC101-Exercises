@@ -15,14 +15,14 @@ mario.goto(-200,-20)
 trash = ["F-off", "You suck", "Eat my dust", "Your mom's faster than this!"]
 # your code goes here
 
-for rounds in range(20):
+for rounds in range(15):
     sonic.forward(random.randint(0,25))
     sonic.write("      "+random.choice(trash))
+    turtle.delay(300)
     mario.forward(random.randint(0,25))
     mario.write("      "+random.choice(trash))
-    turtle.delay(50)
+    turtle.delay(300)
     sonic.clear()
-    turtle.delay(50)
     mario.clear()
 mario.write("     "+random.choice(trash))
 sonic.write("     "+random.choice(trash))
