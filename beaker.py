@@ -45,6 +45,8 @@
 #         a, b = fib(a,b)
 #     print(a, "Is the answer")
 #
+# if __name__ == "__main__":
+#     main()
 ##################################################
 ##################################################
 # import turtle
@@ -69,14 +71,17 @@
 ##################################################
 def square(num, iteration = 0, result = 0):
     num = abs(num)
-
+    x = 1/1
     if iteration == num:
         return result
     return square(num, iteration+1, result + num)
 
-
 def main():
-    print("Square: ", square(10))
-
+    try:
+        print("Square: ", square(10))
+    except BaseException:
+        print("Oopsie Daisy!")
+    else:
+        print("Error!")
 if __name__ == "__main__":
     main()
