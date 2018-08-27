@@ -22,6 +22,7 @@ def s_time(s,size,angle):
 
 def main():
     canvas = turtle.Screen()
+    canvas.setworldcoordinates(-100,-100,500,500)
     canvas.bgcolor("white")
     #obviously needs to be named Chad
     chad = turtle.Turtle()
