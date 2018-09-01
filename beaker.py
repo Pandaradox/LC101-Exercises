@@ -114,6 +114,19 @@
 #     main()
 #
 ##################################################
+#
+#
+# def main():
+#
+#     greet = list("boob")
+#     print(greet == list(reversed(greet)))
+#     print(''.join(greet))
+#     # print(''.join(reversed("Hello")))
+#
+#
+# if __name__ == "__main__":
+#     main()
+#
 ##################################################
 
 
