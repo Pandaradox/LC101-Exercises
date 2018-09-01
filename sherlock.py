@@ -1,11 +1,8 @@
-##################################################
-
-
-def sherlock(guests):
-    for guest in guests:
-        if guest == "Dr. Watson" or guest == "Inspector Lestrade":
-            return "Enter"
-        else:
+def sherlock(guests): #ERROR: colon
+    for guest in guests: #ERROR: wrong list
+        if guest == "Dr. Watson" or guest == "Inspector Lestrade": #ERROR: "Dr." and needs to be two equality statements
+            return "Enter" #ERROR: ; Not Necessary
+        else: #ERROR: colon
             return "Go Away! (sound of violin music...)"
 
 
