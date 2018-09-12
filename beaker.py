@@ -36,7 +36,11 @@
 
 def main():
 
-    print("Ham and Eggs")
+    a = range(20)
+    b = range(10)
+    for i, e in enumerate(b):
+        b[i] = e * 2
+        print(b)
 
 
 if __name__ == "__main__":
