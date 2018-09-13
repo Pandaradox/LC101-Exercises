@@ -91,25 +91,25 @@
 #     main()
 
 # ##################################################Exercise10-5: Max Number
-import random
-
-
-def max(num):
-    king = 0
-    for i in num:
-        if i > king:
-            king = i
-    return(king)
-
-
-def main():
-    numbers = (random.sample(range(1000), k=100))
-    print(numbers)
-    print(max(numbers))
-
-
-if __name__ == "__main__":
-    main()
+# import random
+#
+#
+# def max(num):
+#     king = 0
+#     for i in num:
+#         if i > king:
+#             king = i
+#     return(king)
+#
+#
+# def main():
+#     numbers = (random.sample(range(1000), k=100))
+#     print(numbers)
+#     print(max(numbers))
+#
+#
+# if __name__ == "__main__":
+#     main()
 
 # ##################################################Studio: Bubble Sort
 #
