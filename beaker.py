@@ -32,16 +32,37 @@
 #     main()
 
 # ##################################################
+#
+#
+# class Poop:
+#     """Makes POOP?"""
+#
+#     def __init__(self, stink, color, corn):
+#         self.stink = stink
+#         self.color = color
+#         self.corn = corn
+#
+#     def getstink(self):
+#         return self.stink
+#
+#     def getcolor(self):
+#         return self.color
+#
+#     def getcorn(self):
+#         return self.corn
+#
+#     def status(self):
+#         print("Gross! {color} poo stinks about {stink} out of 10!".format(
+#         color = (self.getcolor()).upper(),
+#         stink = self.getstink()))
+#
+# def main():
+#     p = Poop(7, "brown", True)
+#     print(p.getcorn())
+#     p.status()
+#
+#
+# if __name__ == "__main__":
+#     main()
 
-
-def main():
-
-    a = range(20)
-    b = range(10)
-    for i, e in enumerate(b):
-        b[i] = e * 2
-        print(b)
-
-
-if __name__ == "__main__":
-    main()
+# ########################################
